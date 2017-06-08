@@ -12,6 +12,8 @@
 		D8B5CE121EE9D059006382C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B5CE101EE9D059006382C7 /* Main.storyboard */; };
 		D8B5CE141EE9D059006382C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B5CE131EE9D059006382C7 /* Assets.xcassets */; };
 		D8B5CE171EE9D059006382C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B5CE151EE9D059006382C7 /* LaunchScreen.storyboard */; };
+		D8B5CE1F1EE9D0AD006382C7 /* CircleTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5CE1E1EE9D0AD006382C7 /* CircleTime.swift */; };
+		D8B5CE211EE9D0FE006382C7 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5CE201EE9D0FE006382C7 /* CircleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D8B5CE131EE9D059006382C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8B5CE161EE9D059006382C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8B5CE181EE9D059006382C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8B5CE1E1EE9D0AD006382C7 /* CircleTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleTime.swift; sourceTree = "<group>"; };
+		D8B5CE201EE9D0FE006382C7 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				D8B5CE0C1EE9D059006382C7 /* AppDelegate.swift */,
 				D8B5CE0E1EE9D059006382C7 /* ViewController.swift */,
 				D8B5CE101EE9D059006382C7 /* Main.storyboard */,
+				D8B5CE201EE9D0FE006382C7 /* CircleButton.swift */,
+				D8B5CE1E1EE9D0AD006382C7 /* CircleTime.swift */,
 				D8B5CE131EE9D059006382C7 /* Assets.xcassets */,
 				D8B5CE151EE9D059006382C7 /* LaunchScreen.storyboard */,
 				D8B5CE181EE9D059006382C7 /* Info.plist */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8B5CE1F1EE9D0AD006382C7 /* CircleTime.swift in Sources */,
 				D8B5CE0F1EE9D059006382C7 /* ViewController.swift in Sources */,
 				D8B5CE0D1EE9D059006382C7 /* AppDelegate.swift in Sources */,
+				D8B5CE211EE9D0FE006382C7 /* CircleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
