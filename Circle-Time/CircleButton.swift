@@ -9,6 +9,9 @@
 import UIKit
 
 class CircleButton: UIView {
+    
+    var angle: CGFloat = 0
+    
     init() {
         let rect = CGRect(x: 0, y: 0, width: 30, height: 30)
         super.init(frame: rect)
@@ -20,6 +23,4 @@ class CircleButton: UIView {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
-    
 }
